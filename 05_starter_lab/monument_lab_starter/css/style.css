@@ -1,0 +1,153 @@
+
+/* ----------------------------------------
+Base Styles
+------------------------------------------- */
+/* Note: Makes sure that padding and the border are included in the width for each element. */
+/* Don't add anything else under the * selector! */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "raleway", sans-serif;
+	color: #44545E;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+img {
+	max-width: 100%;
+}
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
+p {
+	font-family: "lato", sans-serif;
+	text-transform: none;
+	font-size: 15px;
+	font-weight: 400;
+}
+
+h1 {
+	font-size: 37px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+h3 {
+	font-size: 18px;
+	padding-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #7B98AA;
+}
+a:hover {
+    color: #8F0DFF;
+	}
+
+nav {
+	word-spacing: 50px;
+	padding: 20px 0;
+
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+.pagehed {
+	display: block;
+	padding-top: 125px;
+	background-image: url('../images/home_header_bg.jpg');
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	color: white;
+}
+
+.archives {
+	display: flex;
+	justify-content: space-between;
+	margin: 30px 60px 30px 60px;
+}
+
+.about {
+	padding: 40px 300px 40px 300px;
+	background-color: #CDF3F6;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+}
+
+.photos {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	height: 1200px;
+}
+
+.photos img {
+	padding-bottom: 20px;
+}
+
+.social {
+	margin: 25px;
+	word-spacing: 20px;
+}
+
+.contact {
+	word-spacing: 30px;
+}
+
+.issue{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+article {
+	display: block;
+	width: 30%;
+
+}
+
+hr {
+	border: 2px solid black;
+	border-bottom: 0;
+}
+
+
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+
+.button {
+	border: 2px solid black;
+	text-transform: uppercase;
+	color: black;
+	background-color: white;
+	padding: 5px 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* ----------------------------------------
+Footer
+------------------------------------------- */
+
+footer{
+	padding: 2px 8px 2px 8px;
+	background-color: #CDF3F6;
+}
