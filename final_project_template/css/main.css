@@ -1,0 +1,64 @@
+
+/* ==========================================================================
+   Base styles:
+   ========================================================================== */
+/* Fix to include padding and border in the total width for each element */
+* {
+  box-sizing: border-box;
+}
+
+/* Fix for responsive images */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+header {
+  background-size: cover;
+  background-image: url('../img/kelly-sikkema-251938.jpg');
+  background-attachment: fixed;
+  text-align: center;
+  padding: 300px 20px 10px 20px;
+  margin: 10px;
+}
+
+img {
+  max-width: 100%;
+  opacity: 0.5;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Slabo 27px', serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+}
+
+p {
+  padding: 0px 75px 0px 75px;
+}
+
+nav {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
+}
