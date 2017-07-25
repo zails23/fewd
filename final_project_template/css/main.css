@@ -9,23 +9,36 @@
 
 /* Fix for responsive images */
 
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+
 body {
   font-family: 'Roboto', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  text-align: center;
+  padding: 30px 20px 10px 20px;
+  margin: 50px;
 }
 
-header {
-  background-size: cover;
-  background-image: url('../img/kelly-sikkema-251938.jpg');
-  background-attachment: fixed;
-  text-align: center;
-  padding: 300px 20px 10px 20px;
-  margin: 10px;
+a {
+  text-decoration: none;
+  color: black;
 }
+
+a:hover {
+    color: gray;
+}
+/*a:visited {
+    color: gray;
+}*/
+
+
 
 img {
   max-width: 100%;
-  opacity: 0.5;
+
 }
 
 h1, h2, h3, h4 {
@@ -34,6 +47,7 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 48px;
+
 }
 
 h2 {
@@ -48,17 +62,69 @@ h4 {
   font-size: 18px;
 }
 
-ul {
-  list-style-type: none;
-  padding: 10px;
-}
-
 p {
   padding: 0px 75px 0px 75px;
 }
 
 nav {
-  text-align: center;
-  margin: 0;
-  padding-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: fixed;
+  top: 5px;
+	left: 0;
+	right: 0;
+  color: black;
 }
+
+
+.social-links a {
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 30px;
+	display: inline-block;
+	color: #44545E;
+}
+/* ----------------------------------------
+Lists
+------------------------------------------- */
+
+
+/* ----------------------------------------
+Layout
+------------------------------------------- */
+
+header {
+  background-size: cover;
+  background-image: url('../img/kelly-sikkema_251938.jpg');
+}
+
+section{
+  width: 66%;
+  display: flex;
+  flex-direction: column;
+}
+
+.giddy {
+  display: flex;
+}
+
+.fave-projects {
+  
+}
+
+.right-column {
+  width: 33%;
+}
+/* ----------------------------------------
+Buttons
+------------------------------------------- */
+button {
+  border: none;
+  color: black;
+  background-color: none;
+  font-size: 12px;
+}
+/* ----------------------------------------
+Footer
+------------------------------------------- */
