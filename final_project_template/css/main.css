@@ -58,8 +58,6 @@ h1 {
   font-size: 75px;
   text-transform: uppercase;
   font-weight: 400;
-  /*text-align: left;*/
-  /*margin-left: 20px;*/
   padding-top: 10px;
   color: #ffffff;
 
@@ -80,22 +78,6 @@ h3 {
   text-align: center;
   }
 
-.headerh3 {
-  /*text-align: left;*/
-  /*margin-left: 20px;*/
-
-}
-
-.headerp {
-  /*text-align: left;*/
-  /*margin-left: 20px;*/
-}
-
-.intro-text {
-  max-width: 800px;
-  margin: auto;
-  padding-bottom: 50px;
-}
 
 h4 {
   font-size: 18px;
@@ -110,15 +92,12 @@ nav {
     width: 100%;
     z-index: 1;
     top: 0;
-
-    /*height: 50px;*/
     padding-bottom: 1px;
     margin-bottom: 10px;
-    /*display: flex;*/
     flex-basis; 100;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: white;
+    background-color:  #ffffff;
 
 }
 
@@ -135,54 +114,6 @@ nav a {
 }
 
 
-.work {
-  margin: 50px;
-  display: flex;
-
-}
-
-.fave-things {
-  /*margin: 20px 50px*/
-  text-align: center;
-  line-height: 36px;
-  /*padding-left: 100px;
-  padding-right: 100px;*/
-  display: flex;
-  flex-basis: 100%;
-  opacity: 1;
-  transform: rotate(-90deg);
-  transform: scale(.6, .6);
-  font-size: 14px;
-
-}
-
-.things-copy {
-  /*margin: 0;*/
-}
-
-.contact {
-  margin: 50px;
-  display: flex;
-  flex-basis: 100;
-  text-align: center;
-}
-
-.footercopy {
-  diplay: flex;
-  font-size: 13px;
-  text-align: center;
-  align-items: center;
-}
-
-/* ----------------------------------------
-Lists
-------------------------------------------- */
-
-
-/* ----------------------------------------
-Layout
-------------------------------------------- */
-
 header {
   background-image: url('../img/boraborawater.JPG');
   background-size: cover;
@@ -192,9 +123,6 @@ header {
   height: 700px;
   justify-content: center;
   align-items: center;
-
-
-
 }
 
 section{
@@ -202,6 +130,21 @@ section{
   flex-direction: column;
 }
 
+.intro-text {
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+/* ----------------------------------------
+Work
+------------------------------------------- */
+
+.work {
+  margin: 50; 
+  display: flex;
+
+}
 
 .row {
 	display: flex;
@@ -210,8 +153,6 @@ section{
   margin: 10px;
   justify-content: center;
   text-align: center;
-
-
 }
 
 .col-3-3-3 {
@@ -225,22 +166,9 @@ section{
 	flex-basis: 50%;
 }
 
-.social-links a {
-	font-size: 20px;
-	padding: 10px;
-	display: inline-block;
-	color: #44545E;
-  text-align: center;
-  align-items: center;
-
-}
-
-/* ----------------------------------------
-Projects
-------------------------------------------- */
 
 .projects div, .fave-things div {
-  opacity: 0;
+  opacity: 1;
   transform: rotate(-90deg);
   transform: scale(.6, .6);
 }
@@ -250,14 +178,65 @@ Projects
   transition: all .3s ease-in-out;
   transform: scale(1, 1);
 }
+
+.fave-things {
+  text-align: center;
+  line-height: 36px;
+  display: flex;
+  flex-basis: 100%;
+  opacity: 1;
+  transform: rotate(-90deg);
+  transform: scale(1, 1);
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+/* ----------------------------------------
+Contact
+------------------------------------------- */
+
+
+.contact {
+  margin: 50px;
+  display: flex;
+  flex-basis: 100;
+  text-align: center;
+}
+
+.social-links a {
+	font-size: 35px;
+	padding: 10px;
+	display: inline-block;
+	color: #44545E;
+  text-align: center;
+  align-items: center;
+
+}
+
+
 /* ----------------------------------------
 Footer
 ------------------------------------------- */
-footer {
-  display: flex;
-  flex-basis: 100;
+
+.footercopy {
+  diplay: flex;
+  font-size: 11px;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top: 2px;
 }
 
+footer {
+  background-color: #ffffff;
+
+}
+
+/* ----------------------------------------
+Responsive
+------------------------------------------- */
 @media screen and (max-width: 970px) {
 
   .row {
@@ -272,7 +251,8 @@ footer {
   .col-2-3 {
     flex-basis: 100%;
 }
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 771px) {
   .row {
     flex-basis: 100%;
     flex-wrap: wrap;
@@ -288,5 +268,8 @@ footer {
   nav a {
     text-align: center;
     display: block;
+    padding: 10px 20px;
 
-}*/
+}
+
+*/
